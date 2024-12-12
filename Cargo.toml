@@ -1,0 +1,11 @@
+[package]
+name = "libp2p-peer-tracker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libp2p = { version = "0.49", features = ["tcp", "tokio", "noise", "mplex", "kad"] }
+tokio = { version = "1.28", features = ["full"] }
+futures = "0.3"
+idna = "0.2.3"
+url = "2.2.2"
